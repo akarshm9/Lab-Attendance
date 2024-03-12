@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance IA</title>
+    <style>
+        p{
+            color: white;
+        }
+        form {
+            width: 50vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            justify-items: center;
+            margin-top: 35px;
+            background-color: rgba(252, 200, 208, 0.712);
+            justify-self: center;
+        }
+
+        #uname,
+        #regno,
+        #rollno {
+            width: 30vw;
+            height: 5vh;
+
+        }
+
+        body {
+            margin: 0px;
+            padding: 0%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+        }
+
+        nav {
+            background-color: green;
+            color: white;
+            height: 7vh;
+            width: 100vw;
+        }
+
+        input {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: darkorchid;
+            color: white;
+            width: 50vw;
+            height: 6vh;
+            cursor: pointer;
+        }
+        @media screen and (max-width:500px) {
+            #uname,
+        #regno,
+        #rollno {
+            width: 60vw;
+            height: 5vh;
+
+        }
+        form{
+            width: 80vw;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <nav><span>The Era Engineers</span></nav>
+    <p>Welcome to the modern Attendance System by <u>The Era Engineers</u> where you can make your Attendance after your file submission</p>cd
+    <form action="/tt" method="post">
+        <label for="uname">Name</label>
+        <div><input type="text" name="uname" id="uname" placeholder="Your name here"></div>
+        <label for="regno">Registration number</label>
+        <div><input type="number" name="regno" id="regno" placeholder="Your Registration number here"></div>
+        <label for="rollno">Board roll number</label>
+        <div><input type="number" name="rollno" id="rollno" placeholder="Your roll number here"></div>
+
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
